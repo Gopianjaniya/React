@@ -2,7 +2,7 @@ import Navbar from "./../../components/Navbar";
 
 function Hero() {
   return (
-    <div className=" flex min-h-screen w-screen flex-col bg-gradient-to-l from-slate-800 to-violet-900">
+    <div className=" flex min-h-screen w-full flex-col bg-gradient-to-l from-slate-800 to-violet-900">
       <Navbar />
       <div className="sm:my-auto mx-auto px-4 py-16 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-20">
         <div className="flex flex-col items-center justify-between lg:flex-row">

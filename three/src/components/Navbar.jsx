@@ -9,7 +9,7 @@ function Navbar() {
      navigate("/register");
    };
   return (
-    <header className="relative flex w-screen max-w-screen-xl flex-col overflow-hidden px-4 py-4 text-white md:mx-auto md:flex-row md:items-center">
+    <header className="relative flex w-full max-w-full-xl flex-col overflow-hidden px-4 py-4 text-white md:mx-auto md:flex-row md:items-center bg-gradient-to-l from-slate-800 to-violet-900">
       <Link
         to={"/"}
         className="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black"
@@ -63,6 +63,9 @@ function Navbar() {
           <li className="md:mr-12">
             <Link to={"/about"}>About</Link>
           </li>
+          <li className="md:mr-12">
+            <Link to={"/info"}>Info</Link>
+          </li>
 
           <li className="md:mr-12">
             <button
@@ -85,3 +88,6 @@ function Navbar() {
 }
 
 export default Navbar
+
+
+ 
