@@ -1,11 +1,14 @@
-import React from 'react'
-import { useContext } from 'react'
-import { UserContext } from '../components/UserContext'
+import React from "react";
+import { useContext } from "react";
+import { UserContext } from "../components/UserContext";
 
 function Profile() {
-    const  user = useContext(UserContext);
+
+  const user = useContext(UserContext);
+  console.log(user,"User2");
+  
   return (
-    <div className='bg-blue-500 p-10'>
+    <div className="bg-blue-500 p-10">
       <h2>Profile</h2>
       <p>
         <b>Name:</b> {user.name}
@@ -17,4 +20,4 @@ function Profile() {
   );
 }
 
-export default Profile
+export default Profile;
